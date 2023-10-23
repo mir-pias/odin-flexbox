@@ -7,9 +7,9 @@ body{
 
 .header{
     display: flex;
-    /* padding: 20px; */
+    padding: 0 300px 0 300px;
     background-color: #1F2937;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -32,4 +32,57 @@ a{
     font-size: 18px;
     color: #E5E7EB;
     font-weight: 500;
+}
+
+.hero{
+    display: flex;
+    padding: 100px 300px 100px 300px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    gap: 100px;
+
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.main-text{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    flex-wrap: wrap;
+
+}
+
+.sec-text{
+    color: #E5E7EB;
+    font-size: 18px;
+    flex-wrap: wrap;
+}
+
+.pic{
+    display: flex;
+    min-height: 300px;
+    min-width: 600px;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    flex-shrink: 0;
+}
+
+button{
+    padding: 10px 40px 10px 40px;
+    margin-top: 15px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    border-radius: 10px;
+    max-width: max-content;
+    border: none;
 }
