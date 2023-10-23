@@ -7,10 +7,11 @@ body{
 
 .header{
     display: flex;
-    padding: 0 300px 0 300px;
+    padding: 15px 500px 0 500px;
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
+    min-width: max-content;
 }
 
 .header-logo{
@@ -18,6 +19,7 @@ body{
     font-size: 24px;
     /* padding: 0 300px; */
     font-weight: 700;
+    padding-right: 100px;
 }
 
 ul{
@@ -25,6 +27,8 @@ ul{
     display: flex;
     gap: 25px;
     /* padding-right: 300px; */
+    padding: 0;
+    margin: 0;
 
 }
 a{
@@ -36,11 +40,13 @@ a{
 
 .hero{
     display: flex;
-    padding: 100px 300px 100px 300px;
+    padding: 100px 500px 100px 500px;
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
     gap: 100px;
+    /* flex: 1; */
+    min-width: min-content;
 
 }
 
@@ -67,13 +73,13 @@ a{
 
 .pic{
     display: flex;
-    min-height: 150px;
-    min-width: 300px;
+    min-height: 300px;
+    min-width: 500px;
     background-color: gray;
     justify-content: center;
     align-items: center;
     color: #E5E7EB;
-    /* flex-shrink: 0; */
+    flex-shrink: 0;
 }
 
 button{
@@ -106,18 +112,21 @@ button{
 .info-im-txt{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 50px;
+    align-items: flex-start;
+    /* gap: 50px; */
 
 }
 .im-txt{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    /* max-width: 200px; */
+    width: 200px;
     /* flex-shrink: 0; */
+    /* padding: 50px; */
+    /* margin: 3px; */
+    flex-wrap: wrap;
 }
 
 .info-im{
@@ -127,6 +136,7 @@ button{
     width: 150px;
     height: 150px;
     border-radius: 10px;
+    flex-wrap: wrap;
 }
 
 .info-txt{
