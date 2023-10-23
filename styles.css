@@ -145,3 +145,32 @@ button{
     text-align: center;
     /* width: 300px; */
 }
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: max-content;
+    padding: 100px 500px 100px 500px;
+    gap: 20px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 750px;
+    flex-wrap: wrap;
+    font-weight: lighter;
+
+}
+
+.quote-name{
+    align-self: flex-end;
+    font-size: 30px;
+    flex-wrap: wrap;
+    font-weight: bold;
+    padding-right: 30px;
+}
