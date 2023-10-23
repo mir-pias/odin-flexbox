@@ -67,13 +67,13 @@ a{
 
 .pic{
     display: flex;
-    min-height: 300px;
-    min-width: 600px;
+    min-height: 150px;
+    min-width: 300px;
     background-color: gray;
     justify-content: center;
     align-items: center;
     color: #E5E7EB;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
 }
 
 button{
@@ -85,4 +85,53 @@ button{
     border-radius: 10px;
     max-width: max-content;
     border: none;
+}
+
+.info{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 300px 100px 300px;
+}
+
+.info-header{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.info-im-txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+.im-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    /* max-width: 200px; */
+    /* flex-shrink: 0; */
+}
+
+.info-im{
+    background-color: white;
+    border-color: #3882F6;
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.info-txt{
+    flex-wrap: wrap;
+    align-self: center;
+    text-align: center;
+    /* width: 300px; */
 }
