@@ -174,3 +174,20 @@ button{
     font-weight: bold;
     padding-right: 30px;
 }
+
+.action{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: max-content;
+    padding: 100px 300px 100px 300px;
+}
+
+.action-bar{
+    background-color: #3882F6;
+    width: 1000px;
+    height: 150px;
+    
+
+}
