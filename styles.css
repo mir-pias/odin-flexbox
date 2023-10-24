@@ -113,6 +113,7 @@ a{
     justify-content: space-between;
     align-items: flex-start;
     /* gap: 50px; */
+    flex-wrap: wrap;
 
 }
 .im-txt{
