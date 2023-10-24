@@ -10,17 +10,15 @@ body{
     background-color: #1F2937;
     justify-content: space-around;
     align-items: center;
-    /* flex-shrink: 0; */
-    /* min-width: max-content; */
+    
 }
 
 .header-logo{
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 700;
-    padding-right: 100px;
-    /* padding-left: 500px; */
-    /* flex-shrink: 0; */
+    /* padding-right: 100px; */
+    
 }
 
 ul{
@@ -40,21 +38,22 @@ a{
 
 .hero{
     display: flex;
-    padding: 100px 500px 100px 500px;
+    padding: 100px 0 100px 0;
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    gap: 100px;
-    flex-shrink: 0;
-    min-width: min-content;
+    /* gap: 400px; */
+    /* flex-shrink: 0; */
+    /* min-width: min-content; */
 
 }
 
 .texts{
     display: flex;
-    flex-direction: column;
-
-    
+    flex-direction: column; 
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin-left: auto;   
 }
 
 .main-text{
@@ -73,12 +72,13 @@ a{
 
 .pic{
     display: flex;
-    min-height: 300px;
-    min-width: 500px; 
+    height: 300px;
+    width: 600px; 
     background-color: gray;
     justify-content: center;
     align-items: center;
     color: #E5E7EB;
+    margin-right: auto;
 }
 
 #sign-up-1{
