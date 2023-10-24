@@ -149,8 +149,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: max-content;
-    padding: 100px 500px 100px 500px;
+    padding: 100px 0 100px 0;
     gap: 20px;
 }
 
@@ -165,11 +164,11 @@ a{
 }
 
 .quote-name{
-    align-self: flex-end;
     font-size: 30px;
     flex-wrap: wrap;
     font-weight: bold;
-    padding-right: 30px;
+    /* padding-left: 500px; */
+    margin: auto;
 }
 
 .action{
@@ -177,8 +176,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: max-content;
-    padding: 100px 300px 100px 300px;
+    padding: 100px 0 100px 0;
 }
 
 .action-bar{
