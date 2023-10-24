@@ -82,15 +82,15 @@ a{
     flex-shrink: 0;
 }
 
-button{
+#sign-up-1{
     padding: 10px 40px 10px 40px;
     margin-top: 15px;
     background-color: #3882F6;
-    color: #E5E7EB;
+    color: #F9FAF8;
     font-weight: bold;
     border-radius: 10px;
     max-width: max-content;
-    border: none;
+    border-color: #3882F6;
 }
 
 .info{
@@ -161,7 +161,7 @@ button{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    width: 750px;
+    max-width: 750px;
     flex-wrap: wrap;
     font-weight: lighter;
 
@@ -185,9 +185,47 @@ button{
 }
 
 .action-bar{
+    display: flex;
     background-color: #3882F6;
     width: 1000px;
     height: 150px;
-    
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 200px; */
 
 }
+
+.action-text{
+    display: flex;
+    flex-direction: column;
+    /* padding: 50px 0 50px 100px; */
+}
+
+.action-text-big{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+    flex-wrap: wrap;
+}
+
+.action-text-small{
+    color: #F9FAF8;
+    font-size: 18px;
+    /* font-weight: 900; */
+    flex-wrap: wrap;
+}
+
+#sign-up-2{
+    padding: 10px 40px 10px 40px;
+    margin-top: 15px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bolder;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #F9FAF8;
+    max-width: max-content;
+    font-size: 16px;
+}
+
