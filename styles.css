@@ -1,7 +1,6 @@
 body{
     display: flex;
     flex-direction: column;
-    /* padding: 0 100px 0 100px; */
     min-height: 100vh;
 }
 
@@ -11,22 +10,22 @@ body{
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
+    flex-shrink: 0;
     min-width: max-content;
 }
 
 .header-logo{
     color: #F9FAF8;
     font-size: 24px;
-    /* padding: 0 300px; */
     font-weight: 700;
     padding-right: 100px;
+    flex-shrink: 0;
 }
 
 ul{
     list-style-type: none;
     display: flex;
     gap: 25px;
-    /* padding-right: 300px; */
     padding: 0;
     margin: 0;
 
@@ -45,7 +44,7 @@ a{
     align-items: center;
     background-color: #1F2937;
     gap: 100px;
-    /* flex: 1; */
+    flex-shrink: 0;
     min-width: min-content;
 
 }
@@ -74,12 +73,11 @@ a{
 .pic{
     display: flex;
     min-height: 300px;
-    min-width: 500px;
+    min-width: 500px; 
     background-color: gray;
     justify-content: center;
     align-items: center;
     color: #E5E7EB;
-    flex-shrink: 0;
 }
 
 #sign-up-1{
@@ -123,9 +121,6 @@ a{
     flex-direction: column;
     gap: 10px;
     width: 200px;
-    /* flex-shrink: 0; */
-    /* padding: 50px; */
-    /* margin: 3px; */
     flex-wrap: wrap;
 }
 
@@ -229,3 +224,11 @@ a{
     font-size: 16px;
 }
 
+.footer{
+    display: flex;
+    padding: 30px 500px 30px 500px;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    flex-basis: max-content;
+}
